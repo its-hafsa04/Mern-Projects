@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    {{>headerlink}}
+    {{>navbar}}
+    {{>header}}
+    <div class="login-container">
+        <br>
+        <h3 style="color: #3d3c3c;text-align:center">User Login</h3>
+    <form action="/login" method="post">
+        <img src="https://media.istockphoto.com/id/1433039224/photo/blue-user-3d-icon-person-profile-concept-isolated-on-white-background-with-social-member.jpg?s=612x612&w=0&k=20&c=nrJ6RZ8Ft4vHECnRjBGBK_9XJ7f_lsi3dJjj_uAlkT8="
+        style="border-radius:50%;width:120px;margin-left:140px"  alt="">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <div class="line">
+        <input type="checkbox" id="remember" name="remember" style="width: 20px;">
+      <label for="remember" style="margin: 15px;">Remember Me</label><a style="margin: 15px;color:rgb(50, 50, 212)">Need help?</a>
+      </div>
+      <input type="submit" value="Sign in" style="width: 120px; float:right; background-color:rgb(60, 36, 199);color: #fff;">
+    </form>
+    <p style="color: #0166d2;text-align:center">Don't have an account? <a href="/register">Sign up</a></p>
+  </div>
+  <br>
+    {{>footer}}
+</body>
+</html>

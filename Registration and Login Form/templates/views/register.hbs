@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{{>headerlink}}
+    {{>navbar}}
+    {{>header}}
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="row">
+                    <form action="register" method="post">
+                        <div class="col-md-5">
+                            <img src="https://media.istockphoto.com/id/1141345851/photo/register-register.webp?b=1&s=170667a&w=0&k=20&c=PwSo5tZ8dkuA9YlwEPfDArNA5NYyqznQbpd4pQ820SI=" alt="">
+                        </div>
+                        <div class="content col-md-7">
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="name" required autocomplete="off" placeholder="Name">
+                            <label for="gender">Gender:</label>
+                            <div class="gender-options">
+                                <input type="radio" id="male" name="gender" value="Male">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" value="Female">
+                                <label for="female">Female</label>
+                            </div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="Email" name="email" required autocomplete="off" placeholder="Email">
+                            <label for "password">Password:</label>
+                            <input type="password" id="password" name="password" required placeholder="password">
+                            <label for="confirm-password">Confirm Password:</label>
+                            <input type="password" id="confirm-password" name="cpassword" required placeholder="confirm-password">
+                            <input type="submit" value="Register" style="width: 120px; float:right; background-color:rgb(39, 39, 181);color: #fff;">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+</html>

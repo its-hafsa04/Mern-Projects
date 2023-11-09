@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #2e2d4f;
+    color: #fff;
+    padding: 0;
+}
+header img{
+    width: 100%;
+    height: 550px;
+}
+#header {
+    background: url('https://media.istockphoto.com/id/1437969316/photo/digital-screen-with-encryption-data-background-big-data-with-binary-computer-code-safe-your.webp?b=1&s=170667a&w=0&k=20&c=uf_I1FD2YxRd3Xju6p3JFyVFqQevYsljNvp89lICH_k=') center/cover no-repeat;
+    text-align: center;
+    color: white;
+    padding: 150px;
+}
+nav {
+    margin-top: 0;
+    width: 100%;
+    background-color: #2e2d4f;
+    position: fixed;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: large;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+section img{
+    width: 500px;
+    height: 400px;
+    }
+
+form {
+    display: flex;
+    height: 500px;
+    text-align: left;
+    margin: 100px 200px;
+    background-color: #dfdeef;
+    padding: 40px 80px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+form div{
+    width: 100%;
+}
+form img{
+    margin-left: 0px;
+    width: 250px;
+    height: 400px;
+}
+form .content{
+    margin-left: 90px;
+    padding-right: 50px;
+}
+
+.gender-options {
+    display: flex;
+    margin-top: 10px;
+}
+
+.gender-options label {
+    margin-right: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 8px;
+    color: black;
+    font-weight: 400;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    margin: 5px 10px;
+}
+.login-container form{
+    display: flex;
+    flex-direction: column;
+ background-color: #aabfc6;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding-right: 30px;
+  }
+  .login-container form img{
+    height: 150px;
+  }
+  .line{
+    display: flex;
+  }
+ 
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+footer {
+    background-color: #2e2d4f;
+    color: #fff;
+    padding: 10px;
+}
+
